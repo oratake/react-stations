@@ -67,6 +67,7 @@
     "lint:fix": "eslint --ext .js ./src --fix",
     "login:techtrain": "techtrain-railway login",
     "hook:pre-commit": "techtrain-railway hook:pre-commit",
+    "test": "yarn run hook:pre-commit",
     "hook:update": "simple-git-hooks",
     "postinstall": "yarn hook:update && yarn login:techtrain"
   },
