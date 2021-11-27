@@ -11,6 +11,10 @@ export const App = () => {
   return (
     <div>
       <header>header</header>
+      <main>
+        <h2>Dog picture</h2>
+        <img src="https://dog.ceo/api/breeds/image/random"></img>
+      </main>
     </div>
   )
 }
